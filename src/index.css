@@ -5,16 +5,21 @@
 }
 body{
   font-family: 'Times New Roman', Times, serif;
-  background-color:blueviolet;
+ /* background-color:lightseagreen;*/
+/* background-image:url(https://media.istockphoto.com/vectors/vector-realistic-vintage-spotlights-theater-or-show-stage-background-vector-id1170636110?k=6&m=1170636110&s=612x612&w=0&h=ZkdxYzcoo0Nr7YTsaGiXdLgOCmYaQRCoD6gsJQdDRbE=); */
+/*background-image: url(https://ak.picdn.net/shutterstock/videos/1058614003/thumb/1.jpg?ip=x160); */
+background-image:url(https://ak.picdn.net/shutterstock/videos/1041303136/thumb/9.jpg?ip=x160);
 }
-header{
+ header{
   padding: 50px 15px 0px;
 }
 header h1{
-  color: white;
-  font-size: 48px;
+  /*color:rgba(65, 17, 17 ,0.788);*/
+  color:white;
+  font-size: 65px;
   font-weight: 500;
   text-align: center;
+  font-family:cursive;
 }
 main{
   width: 100%;
@@ -65,13 +70,13 @@ section{
   font-weight: 600;
   font-size: 20;
   padding: 10;
-  background: cadetblue;
+  background: cadetblue; 
   flex: 1 1 100%;
   transition: 0.4s ease-out;
 }
 .results .result:hover{
-  background: #FFF;
-  color: aqua;
+  background: white;
+  color:steelblue;
 }
 .popup{
   position: fixed;
@@ -79,8 +84,9 @@ section{
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: brown;
+background-color:cadetblue; 
   overflow-y: scroll;
+  font-size: 25px;
 }
 .popup .content{
   display: block;
@@ -112,6 +118,7 @@ section{
   flex: 1 1 50%;
   max-width: 300px;
   padding: 0 15px;
+ 
 }
 .popup .content .plot p{
   flex: 1 1 50%;
@@ -133,4 +140,32 @@ section{
 }
 .popup .content .close:hover{
   background: #223343;
+}
+/*
+.btn{
+  color:black;
+  background-color: lightblue;
+  font-size: 25px;
+  text-align: center;
+  width:100%;
+  
+}*/
+.btn{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.4s ease-out;
+  font-family:serif ;
+  
+}
+.btn:focus{
+  box-shadow: 0px 0px 8px 3px black;
 }
